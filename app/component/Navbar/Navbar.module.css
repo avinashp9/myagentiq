@@ -1,0 +1,80 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 20px 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  font-family: "Century Gothic", sans-serif;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navItem {
+  font-family: "Urbanist-SemiBold", Helvetica;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 12px;
+  transition: color 0.3s ease;
+  background: 0.3s ease;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.navItem:hover {
+  color: #ff8340;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 17px;
+}
+
+.login {
+  color: white;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  background: none;
+  border: none;
+   font-family: "Urbanist-SemiBold", Helvetica;
+  cursor: pointer;
+}
+
+.login:hover {
+  color: #ff8340;
+}
+
+.primaryCTA {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  color: white;
+   font-family: "Urbanist-SemiBold", Helvetica;
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.primaryCTA:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+}

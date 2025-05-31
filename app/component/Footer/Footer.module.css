@@ -1,0 +1,442 @@
+
+ .footer-container {
+  align-items: flex-end;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  gap: 189px;
+  left: 2px;
+  padding: 60px 60px 20px;
+  position: absolute;
+  top: 5972px;
+  margin: 0 auto; /* Center the container */
+  width: 100%; max-width: 1524px;
+}
+.footer-container {
+  width: 100%;
+  /* padding: 2rem; */
+ 
+  flex-wrap: wrap;
+}
+
+/* Remove any fixed height */
+.footer-container,
+.footer-top-bar-wraper,
+.contact-section {
+  height: auto !important;
+  max-height: none !important;
+}
+
+ .footer-top-bar {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+ .footer-top-bar-wraper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 108px;
+  position: relative;
+}
+
+ .footer-column {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  position: relative;
+  max-width: 110px;
+  width: 100%;
+}
+
+ .footer-column-title {
+  align-self: stretch;
+  color: #ffffff6b;
+  font-family: "Urbanist-Bold", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 14.4px;
+  margin-top: -1px;
+  position: relative;
+}
+
+ .footer-link-underlined {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Urbanist-SemiBold", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  margin-top: -1px;
+  position: relative;
+  text-decoration: underline;
+}
+
+ .footer-link {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Urbanist-SemiBold", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  position: relative;
+}
+
+ .footer-link-colomun {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  position: relative;
+ max-width: 153x;
+  width: 100%;
+}
+
+ .text-wrapper-37 {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Urbanist-SemiBold", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 16.8px;
+  margin-top: -1px;
+  position: relative;
+}
+
+ .footer-link-contact-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  position: relative;
+   max-width: 590px;
+  width: 100%;
+}
+
+ .footer-quat {
+  color: #ffffff;
+  font-family: "Urbanist-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  position: relative;
+  max-width: 433px;
+  width: 100%;
+}
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  z-index: 10;
+}
+
+/* Add this to wrap name and email side by side */
+.contact-row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+}
+
+/* Ensure name and email inputs take up equal space */
+.contact-row input {
+  flex: 1;
+}
+
+
+
+ .name-text {
+  -webkit-backdrop-filter: blur(28.6px) brightness(100%);
+  align-items: center;
+  backdrop-filter: blur(28.6px) brightness(100%);
+  background-color: #ffffff0f;
+  border: 1px solid;
+  border-color: #2a2a2a;
+  border-radius: 6px;
+  display: flex;
+  gap: 11px;
+  height: 40px;
+  padding: 20px;
+  position: relative;
+  max-width: 155px;
+  width: 100%;
+}
+
+ .name-text-wraper {
+  color: #727272;
+  font-family: "Urbanist-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  margin-bottom: -8.5px;
+  margin-top: -10.5px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+ .email-text {
+  -webkit-backdrop-filter: blur(28.6px) brightness(100%);
+  align-items: center;
+  backdrop-filter: blur(28.6px) brightness(100%);
+  background-color: #ffffff0f;
+  border: 1px solid;
+  border-color: #2a2a2a;
+  border-radius: 6px;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 11px;
+  height: 40px;
+  padding: 20px;
+  position: relative;
+}
+
+ .send-btn {
+  -webkit-backdrop-filter: blur(28.6px) brightness(100%);
+  align-items: center;
+  backdrop-filter: blur(28.6px) brightness(100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 11px;
+  height: 40px;
+  padding: 20px;
+  position: relative;
+}
+
+ .send-btn-text {
+  color: #000000;
+  font-family: "Urbanist-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  margin-bottom: -8.5px;
+  margin-top: -10.5px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+ .footer-bottom-bar {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  height: 29px;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+ .copyright-text {
+  color: #ffffff80;
+  font-family: "Urbanist-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+  line-height: normal;
+  opacity: 0.8;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+ .rightside-text {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 65px;
+  position: relative;
+}
+
+ /* .frame-73 {
+  flex: 0 0 auto;
+  position: relative;
+} */
+
+ .my-agent-IQ {
+  height: 448px;
+  left: 0;
+  position: absolute;
+  top: 226px;
+  width: 100%;
+  
+}
+ .pricing-card-uppercontent2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 14px;
+  position: relative;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    /* padding: 1.5rem 1rem; */
+    /* gap: 2rem; */
+    position: relative;
+    width: 100% !important;
+    padding: 0px;
+    margin-right: 0;
+    margin-left: 0 ;
+    top: 250px;
+    /* line-height: 1.1; */
+  }
+
+  .pricing-card-uppercontent2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+ 
+}
+ .footer-top-bar {
+ overflow: hidden; /* Prevent background images from spilling out */
+  align-items: flex-start;
+  display: flex;
+  gap: 52px;
+  flex-direction: column;
+  height: auto;
+ }
+
+ .footer-top-bar-wraper {
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* allows wrapping if screen is too narrow */
+  justify-content: space-between;
+  gap: 10px;
+  width: 100% !important;
+  max-width: 100%;
+  height: auto;
+  }
+
+  .footer-column,
+  .footer-link-colomun {
+   flex: 1 1 1 calc(25% - 10px); /* responsive two-column layout with spacing */
+  max-width: calc(25% - 10px);
+  overflow: hidden; /* Prevent background images from spilling out */
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: space-between;
+  padding: 12px 0px 12px;
+  position: relative;
+ 
+  }
+
+  
+ .footer-link {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Urbanist-SemiBold", Helvetica;
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 10.8px;
+  position: relative;
+}
+
+
+ .footer-link-underlined {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Urbanist-SemiBold", Helvetica;
+ font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 10.8px;
+  position: relative;
+  margin-top: -1px;
+  text-decoration: underline;
+}
+
+  .footer-link-contact-wrapper {
+    width: auto;
+    gap: 1rem;
+    
+  }
+
+  .footer-quat {
+    font-size: 12px;
+    line-height: 1.4;
+    width: 100%;
+  }
+
+  .contact-section {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .name-text,
+  .email-text {
+    width: 100%;
+    height: auto;
+    padding: 0.75rem 1rem;
+    font-size: 14px;
+  }
+
+  .send-btn {
+    width: 100%;
+    height: auto;
+    padding: 0.75rem;
+    justify-content: center;
+  }
+
+  .send-btn-text {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .footer-bottom-bar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    top: -100px;
+    gap: 0.5rem;
+  }
+
+  .rightside-text {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .my-agent-IQ {
+     width: 100%;
+     height: 50px;
+    left: 0;
+    top: 550px;;
+    padding: 0px;
+    margin: 0px;
+   }
+
+  .copyright-text {
+    font-size: 6px;
+    white-space: normal;
+    text-align: center;
+    opacity: 0.7;
+  }
+}
+
+
