@@ -86,13 +86,13 @@ const Navbar = () => {
         {/* Auth + Menu */}
         <div className="flex items-center space-x-3">
           <button className={`${styles.login} text-sm`}>
-            <Link href="/homepage/comingsoon" passHref>
+            <Link href="https://app.myagentiq.ai/login" passHref>
               Log In
             </Link>
           </button>
           <button className={`${styles.primaryCTA} px-3 py-1 text-sm`}>
             <div className={styles.textwrapper4}>
-              <Link href="/homepage/contactpage" passHref>
+              <Link href="https://app.myagentiq.ai/signup" passHref>
                 Sign Up
               </Link>
             </div>
