@@ -47,7 +47,7 @@ const Navbar = () => {
         {/* Right Buttons */}
         <div className="flex items-center gap-4">
           <div className={styles.login}>
-            <Link href="/homepage/comingsoon" passHref>
+            <Link href="https://app.myagentiq.ai/login" passHref>
               Log In
             </Link>
           </div>
@@ -65,7 +65,7 @@ const Navbar = () => {
           </div> */}
           <button className={styles.primaryCTA}>
             <div className={styles.textwrapper4}>
-              <Link href="/homepage/contactpage" passHref>
+              <Link href="https://app.myagentiq.ai/signup" passHref>
                 Sign Up
               </Link>
             </div>
