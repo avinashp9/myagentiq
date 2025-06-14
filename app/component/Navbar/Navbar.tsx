@@ -86,7 +86,7 @@ const Navbar = () => {
         {/* Auth + Menu */}
         <div className="flex items-center space-x-3">
           <button className={`${styles.login} text-sm`}>
-            <Link href="https://app.myagentiq.ai/login" passHref>
+            <Link href="/test" passHref>
               Log In
             </Link>
           </button>
